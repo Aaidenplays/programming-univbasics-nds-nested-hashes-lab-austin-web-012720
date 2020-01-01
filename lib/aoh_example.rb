@@ -24,7 +24,7 @@ def literal_aoh
             { name:  "Bruce Green", occupation: "Fan of Mildred"} 
                 ]
   names_list.sort!
-
+  names_list
 end
 
 def aoh_lookup(aoh, row, key)
