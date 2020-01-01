@@ -17,6 +17,10 @@ def literal_aoh
   # Using Array literal syntax only, build a nested array that uses the data in
   # held in the constants
   names_list = assembled_aoh
+  names_list = [
+            Don_G = {name: "Don Gately", occopation: "Live-in Staff"},
+            
+                ]
   names_list.sort!
   binding.pry
 end
