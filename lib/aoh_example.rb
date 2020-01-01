@@ -17,9 +17,9 @@ def literal_aoh
   # Using Array literal syntax only, build a nested array that uses the data in
   # held in the constants
   names_list = assembled_aoh
-  names_list = names_list.sort_by  {|h | h[:name]}
-  names_list.sort!
-  names_list
+  # names_list = names_list.sort_by  {|h | h[:name]}
+  # names_list.sort!
+  # names_list
 end
 
 def aoh_lookup(aoh, row, key)
