@@ -23,8 +23,9 @@ def literal_aoh
             { name:  "Kate Gompert", occupation: "None" },
             { name:  "Bruce Green", occupation: "Fan of Mildred"} 
                 ]
- names_list.sort_by  {|h | h[:name]}
+  names_list.sort_by  {|h | h[:name]}
   names_list
+  binding.pry 
 end
 
 def aoh_lookup(aoh, row, key)
