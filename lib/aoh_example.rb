@@ -23,7 +23,7 @@ def literal_aoh
             { name:  "Kate Gompert", occupation: "None" },
             { name:  "Bruce Green", occupation: "Fan of Mildred"} 
                 ]
- names_list.sort_by 
+ names_list.sort_by {|h |h}
   names_list
 end
 
