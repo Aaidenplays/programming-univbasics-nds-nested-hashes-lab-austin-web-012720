@@ -25,7 +25,6 @@ def literal_aoh
                 ]
   names_list = names_list.sort_by  {|h | h[:name]}
   names_list
-  binding.pry
 end
 
 def aoh_lookup(aoh, row, key)
