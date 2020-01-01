@@ -16,13 +16,7 @@ end
 def literal_aoh
   # Using Array literal syntax only, build a nested array that uses the data in
   # held in the constants
-  names_list = [
-            { name: "Don Gately", occopation: "Live-in Staff"},
-            { name:  "Joelle van Dyne", occupation: "Radio Personality" },
-            { name:  "Pat Monteseian", occupation: "Staff" },
-            { name:  "Kate Gompert", occupation: "None" },
-            { name:  "Bruce Green", occupation: "Fan of Mildred"} 
-                ]
+  names_list = assembled_aoh
   names_list = names_list.sort_by  {|h | h[:name]}
   names_list.sort!
   names_list
