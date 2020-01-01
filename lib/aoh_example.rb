@@ -19,6 +19,8 @@ def literal_aoh
   names_list = assembled_aoh
   names_list = [
             Don_G = {name: "Don Gately", occopation: "Live-in Staff"},
+            JOELLE_VD = { name:  "Joelle van Dyne", occupation: "Radio Personality" }
+            PAT_M =  { name:  "Pat Monteseian", occupation: "Staff" }
             
                 ]
   names_list.sort!
