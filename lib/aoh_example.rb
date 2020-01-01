@@ -18,6 +18,7 @@ def literal_aoh
   # held in the constants
   names_list = assembled_aoh
   names_list.sort!
+  binding.pry
 end
 
 def aoh_lookup(aoh, row, key)
